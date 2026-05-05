@@ -12,7 +12,7 @@ _Last updated: 2026-05-05_
 
 ## Who we are
 
-Buddy is a mobile app designed for students with learning differences, ADHD, or learning difficulties, but usable by anyone who wants to organize their study. Buddy is developed and operated by **Alessandro Dianna**, who acts as the **Data Controller** under EU Regulation 2016/679 (GDPR).
+Buddy is a mobile app designed for students with learning differences, ADHD, or learning difficulties, but usable by anyone who wants to organize their study. Buddy is developed and operated by **Alessandro Di Anna**, who acts as the **Data Controller** under EU Regulation 2016/679 (GDPR).
 
 **Privacy contact**: buddy.coach.ai@gmail.com
 
@@ -111,5 +111,5 @@ We may update this policy. The date at the top indicates the last update. We wil
 
 ## Contacts
 
-**Data Controller**: Alessandro Dianna
+**Data Controller**: Alessandro Di Anna
 **Email**: buddy.coach.ai@gmail.com
