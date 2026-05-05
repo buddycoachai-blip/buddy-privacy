@@ -3,9 +3,11 @@ title: Privacy Policy — Buddy
 layout: default
 ---
 
+🇮🇹 **Italiano** · [🇬🇧 English](./en.html)
+
 # Privacy Policy — Buddy
 
-_Ultimo aggiornamento: 2026-04-30_
+_Ultimo aggiornamento: 2026-05-05_
 
 ## Chi siamo
 
@@ -30,7 +32,7 @@ Quando crei un account o usi l'app, raccogliamo i seguenti dati:
 - **Task** che crei (titolo, descrizione, scadenza, priorità, ricompensa)
 - **Materiali scolastici** che carichi (foto degli appunti o PDF)
 - **Riassunti, mappe concettuali e quiz** generati automaticamente dai tuoi materiali
-- **Risultati dei quiz** (punteggi, risposte, data)
+- **Risultati dei quiz** (punteggi, risposte, data) — inclusi quiz, mini-quiz di ripasso e interrogazioni orali simulate
 - **Sessioni Pomodoro** completate (durata, data)
 - **Routine** create (titolo, passi, orari)
 - **Solleciti** scambiati tra Coach e Studente
@@ -47,7 +49,7 @@ Quando crei un account o usi l'app, raccogliamo i seguenti dati:
 
 I tuoi dati vengono usati esclusivamente per:
 - Fornire il servizio (autenticazione, sincronizzazione tra Coach e Studente, generazione contenuti AI)
-- Inviare notifiche push relative all'utilizzo dell'app (nuove task, solleciti, promemoria routine)
+- Inviare notifiche push relative all'utilizzo dell'app (nuove task, solleciti, promemoria routine, ripassi programmati)
 - Migliorare l'esperienza (statistiche di apprendimento mostrate solo all'utente e al suo Coach)
 - Controllare i costi operativi (solo l'amministratore può vedere statistiche aggregate di utilizzo)
 
@@ -61,9 +63,10 @@ Per fornire il servizio Buddy si appoggia ai seguenti fornitori, i quali agiscon
 |----------|-------|----------------|------|
 | **Google Firebase** (Auth, Firestore, Cloud Messaging) | Autenticazione, database utenti e contenuti, notifiche push | Email, nome, dati app | EU/USA |
 | **Cloudflare R2** | Archiviazione file (foto materiali, PDF, avatar) | Immagini e PDF caricati | UE |
-| **Anthropic (Claude)** | Estrazione testo da immagini/PDF, generazione mappa concettuale | Contenuto dei materiali caricati (testo, immagini) | USA |
-| **OpenAI** | Generazione riassunti e quiz | Testo estratto dai materiali | USA |
+| **Anthropic (Claude)** | Estrazione testo da immagini/PDF, generazione mappa concettuale, valutazione risposte aperte | Contenuto dei materiali caricati (testo, immagini), risposte ai quiz | USA |
+| **OpenAI** | Generazione riassunti, quiz e voce di lettura ad alta voce (TTS) | Testo estratto dai materiali | USA |
 | **Expo (Notifications)** | Inoltro notifiche push | Token dispositivo, contenuto notifica | USA |
+| **Sentry** | Diagnostica errori e crash dell'app | Stack trace, contesto tecnico (no contenuti utente) | USA |
 
 Tutti i fornitori USA aderiscono al **Data Privacy Framework UE-USA** o utilizzano **Standard Contractual Clauses (SCC)** per il trasferimento dati.
 
@@ -85,7 +88,7 @@ I tuoi dati vengono conservati finché l'account è attivo. Se richiedi la cance
 In qualunque momento puoi:
 - **Accedere** ai tuoi dati personali
 - **Rettificare** dati inesatti
-- **Cancellare** il tuo account e tutti i dati associati
+- **Cancellare** il tuo account e tutti i dati associati (anche direttamente dall'app, profilo → "Cancella account")
 - **Portare** i tuoi dati (esporto in formato JSON)
 - **Limitare** il trattamento
 - **Opporti** al trattamento
@@ -107,5 +110,5 @@ Possiamo aggiornare questa policy. La data in alto indica l'ultimo aggiornamento
 
 ## Contatti
 
-**Titolare del trattamento**: Alessandro Dianna  
+**Titolare del trattamento**: Alessandro Dianna
 **Email**: alessandro.dianna@gmail.com
