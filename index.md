@@ -13,7 +13,7 @@ _Ultimo aggiornamento: 2026-05-05_
 
 Buddy è un'app mobile pensata per studenti con DSA, ADHD o difficoltà di apprendimento, ma utilizzabile da chiunque voglia organizzare lo studio. Buddy è sviluppata e gestita da **Alessandro Dianna**, che agisce come **Titolare del trattamento** ai sensi del Regolamento UE 2016/679 (GDPR).
 
-**Contatto privacy**: alessandro.dianna@gmail.com
+**Contatto privacy**: buddy.coach.ai@gmail.com
 
 ## Dati che raccogliamo
 
@@ -94,7 +94,7 @@ In qualunque momento puoi:
 - **Opporti** al trattamento
 - **Revocare** il consenso
 
-Per esercitare i tuoi diritti scrivi a **alessandro.dianna@gmail.com** specificando la richiesta. Risponderemo entro 30 giorni.
+Per esercitare i tuoi diritti scrivi a **buddy.coach.ai@gmail.com** specificando la richiesta. Risponderemo entro 30 giorni.
 
 Hai inoltre diritto di **proporre reclamo all'autorità di controllo** competente (in Italia: Garante per la Protezione dei Dati Personali, [www.gpdp.it](https://www.gpdp.it)).
 
@@ -111,4 +111,4 @@ Possiamo aggiornare questa policy. La data in alto indica l'ultimo aggiornamento
 ## Contatti
 
 **Titolare del trattamento**: Alessandro Dianna
-**Email**: alessandro.dianna@gmail.com
+**Email**: buddy.coach.ai@gmail.com
