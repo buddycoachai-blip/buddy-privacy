@@ -1,114 +1,149 @@
----
-title: Privacy Policy — Buddy
-layout: default
----
+ # Privacy Policy — Buddy Coach
 
-🇮🇹 **Italiano** · [🇬🇧 English](./en.html)
+  _Ultimo aggiornamento: 2026-05-05_
 
-# Privacy Policy — Buddy
+  ## Chi siamo
 
-_Ultimo aggiornamento: 2026-05-05_
+  Buddy Coach è un'app mobile ispirata a studenti con DSA, ADHD o difficoltà
+   di apprendimento, ma utilizzabile da chiunque voglia organizzare lo
+  studio. Buddy Coach è sviluppata e gestita da **Alessandro Di Anna**, che
+  agisce come **Titolare del trattamento** ai sensi del Regolamento UE
+  2016/679 (GDPR).
 
-## Chi siamo
+  **Contatto privacy**: buddy.coach.ai@gmail.com
 
-Buddy è un'app mobile pensata per studenti con DSA, ADHD o difficoltà di apprendimento, ma utilizzabile da chiunque voglia organizzare lo studio. Buddy è sviluppata e gestita da **Alessandro Di Anna**, che agisce come **Titolare del trattamento** ai sensi del Regolamento UE 2016/679 (GDPR).
+  ## Dati che raccogliamo
 
-**Contatto privacy**: buddy.coach.ai@gmail.com
+  Quando crei un account o usi l'app, raccogliamo i seguenti dati:
 
-## Dati che raccogliamo
+  ### Dati forniti direttamente da te
+  - **Email** — per autenticazione e recupero password
+  - **Nome utente** (`displayName`) — per personalizzare l'esperienza e
+  identificare l'utente per il Coach
+  - **Avatar** — emoji preset oppure foto che scegli di caricare
+  - **Family ID** — codice condiviso tra Coach e Studente per collegare gli
+  account
+  - **Lingua preferita** (italiano/inglese)
+  - **Ruolo** — Coach o Studente
+  - **Consenso GDPR** — registriamo data e ora del consenso fornito durante
+  la registrazione del Coach
 
-Quando crei un account o usi l'app, raccogliamo i seguenti dati:
+  ### Dati generati dall'utilizzo dell'app
+  - **Task** che crei (titolo, descrizione, scadenza, priorità, ricompensa)
+  - **Materiali scolastici** che carichi (foto degli appunti o PDF)
+  - **Riassunti, mappe concettuali e quiz** generati automaticamente dai tuoi
+   materiali
+  - **Risultati dei quiz** (punteggi, risposte, data)
+  - **Sessioni Pomodoro** completate (durata, data)
+  - **Routine** create (titolo, passi, orari)
+  - **Solleciti** scambiati tra Coach e Studente
+  - **Statistiche di gamification** (XP, livello, badge, streak)
+  - **Token push** per ricevere notifiche
 
-### Dati forniti direttamente da te
-- **Email** — per autenticazione e recupero password
-- **Nome utente** (`displayName`) — per personalizzare l'esperienza e identificare l'utente per il Coach
-- **Avatar** — emoji preset oppure foto che scegli di caricare
-- **Family ID** — codice condiviso tra Coach e Studente per collegare gli account
-- **Lingua preferita** (italiano/inglese)
-- **Ruolo** — Coach o Studente
-- **Consenso GDPR** — registriamo data e ora del consenso fornito durante la registrazione del Coach
+  ### Dati tecnici
+  - **Identificativo del dispositivo** (token Expo Push Notifications)
+  - **Statistiche di utilizzo aggregate** (numero di elaborazioni AI mensili,
+   costi stimati) — usate solo dall'amministratore per controllo costi
 
-### Dati generati dall'utilizzo dell'app
-- **Task** che crei (titolo, descrizione, scadenza, priorità, ricompensa)
-- **Materiali scolastici** che carichi (foto degli appunti o PDF)
-- **Riassunti, mappe concettuali e quiz** generati automaticamente dai tuoi materiali
-- **Risultati dei quiz** (punteggi, risposte, data) — inclusi quiz, mini-quiz di ripasso e interrogazioni orali simulate
-- **Sessioni Pomodoro** completate (durata, data)
-- **Routine** create (titolo, passi, orari)
-- **Solleciti** scambiati tra Coach e Studente
-- **Statistiche di gamification** (XP, livello, badge, streak)
-- **Token push** per ricevere notifiche
+  **Non raccogliamo né tracciamo**: posizione GPS, contatti, dati di
+  pagamento, identificatori pubblicitari, dati biometrici.
 
-### Dati tecnici
-- **Identificativo del dispositivo** (token Expo Push Notifications)
-- **Statistiche di utilizzo aggregate** (numero di elaborazioni AI mensili, costi stimati) — usate solo dall'amministratore per controllo costi
+  ## Come usiamo i tuoi dati
 
-**Non raccogliamo né tracciamo**: posizione GPS, contatti, dati di pagamento, identificatori pubblicitari, dati biometrici.
+  I tuoi dati vengono usati esclusivamente per:
+  - Fornire il servizio (autenticazione, sincronizzazione tra Coach e
+  Studente, generazione contenuti AI)
+  - Inviare notifiche push relative all'utilizzo dell'app (nuove task,
+  solleciti, promemoria routine)
+  - Migliorare l'esperienza (statistiche di apprendimento mostrate solo
+  all'utente e al suo Coach)
+  - Controllare i costi operativi (solo l'amministratore può vedere
+  statistiche aggregate di utilizzo)
 
-## Come usiamo i tuoi dati
+  **Non vendiamo, affittiamo o cediamo i tuoi dati a terze parti** per scopi
+  commerciali o di marketing.
 
-I tuoi dati vengono usati esclusivamente per:
-- Fornire il servizio (autenticazione, sincronizzazione tra Coach e Studente, generazione contenuti AI)
-- Inviare notifiche push relative all'utilizzo dell'app (nuove task, solleciti, promemoria routine, ripassi programmati)
-- Migliorare l'esperienza (statistiche di apprendimento mostrate solo all'utente e al suo Coach)
-- Controllare i costi operativi (solo l'amministratore può vedere statistiche aggregate di utilizzo)
+  ## Servizi di terze parti
 
-**Non vendiamo, affittiamo o cediamo i tuoi dati a terze parti** per scopi commerciali o di marketing.
+  Per fornire il servizio Buddy Coach si appoggia ai seguenti fornitori, i
+  quali agiscono come **Responsabili del trattamento** ai sensi del GDPR:
 
-## Servizi di terze parti
+  | Servizio | Scopo | Dati condivisi | Sede |
+  |----------|-------|----------------|------|
+  | **Google Firebase** (Auth, Firestore, Cloud Messaging) | Autenticazione,
+  database utenti e contenuti, notifiche push | Email, nome, dati app |
+  EU/USA |
+  | **Cloudflare R2** | Archiviazione file (foto materiali, PDF, avatar) |
+  Immagini e PDF caricati | UE |
+  | **Anthropic (Claude)** | Estrazione testo da immagini/PDF, generazione
+  mappa concettuale | Contenuto dei materiali caricati (testo, immagini) |
+  USA |
+  | **OpenAI** | Generazione riassunti e quiz | Testo estratto dai materiali
+  | USA |
+  | **Expo (Notifications)** | Inoltro notifiche push | Token dispositivo,
+  contenuto notifica | USA |
 
-Per fornire il servizio Buddy si appoggia ai seguenti fornitori, i quali agiscono come **Responsabili del trattamento** ai sensi del GDPR:
+  Tutti i fornitori USA aderiscono al **Data Privacy Framework UE-USA** o
+  utilizzano **Standard Contractual Clauses (SCC)** per il trasferimento
+  dati.
 
-| Servizio | Scopo | Dati condivisi | Sede |
-|----------|-------|----------------|------|
-| **Google Firebase** (Auth, Firestore, Cloud Messaging) | Autenticazione, database utenti e contenuti, notifiche push | Email, nome, dati app | EU/USA |
-| **Cloudflare R2** | Archiviazione file (foto materiali, PDF, avatar) | Immagini e PDF caricati | UE |
-| **Anthropic (Claude)** | Estrazione testo da immagini/PDF, generazione mappa concettuale, valutazione risposte aperte | Contenuto dei materiali caricati (testo, immagini), risposte ai quiz | USA |
-| **OpenAI** | Generazione riassunti, quiz e voce di lettura ad alta voce (TTS) | Testo estratto dai materiali | USA |
-| **Expo (Notifications)** | Inoltro notifiche push | Token dispositivo, contenuto notifica | USA |
-| **Sentry** | Diagnostica errori e crash dell'app | Stack trace, contesto tecnico (no contenuti utente) | USA |
+  ## Conservazione dei dati
 
-Tutti i fornitori USA aderiscono al **Data Privacy Framework UE-USA** o utilizzano **Standard Contractual Clauses (SCC)** per il trasferimento dati.
+  I tuoi dati vengono conservati finché l'account è attivo. Se richiedi la
+  cancellazione (vedi sezione "I tuoi diritti"), tutti i tuoi dati vengono
+  eliminati entro 30 giorni dalla nostra richiesta, fatta eccezione per:
+  - Dati che dobbiamo conservare per obblighi di legge
+  - Dati anonimi/aggregati non più riconducibili a te
 
-## Conservazione dei dati
+  ## Sicurezza
 
-I tuoi dati vengono conservati finché l'account è attivo. Se richiedi la cancellazione (vedi sezione "I tuoi diritti"), tutti i tuoi dati vengono eliminati entro 30 giorni dalla nostra richiesta, fatta eccezione per:
-- Dati che dobbiamo conservare per obblighi di legge
-- Dati anonimi/aggregati non più riconducibili a te
+  - Le password sono cifrate da Firebase Auth (mai visibili a noi)
+  - I file materiali sono serviti via URL pubbliche con identificatori non
+  indovinabili
+  - Le credenziali "ricordami" sul dispositivo sono salvate nel **Keychain
+  iOS / Keystore Android**, non in chiaro
+  - Gli accessi amministrativi sono protetti da flag server-side `isAdmin`
+  non modificabile dal client
 
-## Sicurezza
+  ## I tuoi diritti (GDPR)
 
-- Le password sono cifrate da Firebase Auth (mai visibili a noi)
-- I file materiali sono serviti via URL pubbliche con identificatori non indovinabili
-- Le credenziali "ricordami" sul dispositivo sono salvate nel **Keychain iOS / Keystore Android**, non in chiaro
-- Gli accessi amministrativi sono protetti da flag server-side `isAdmin` non modificabile dal client
+  In qualunque momento puoi:
+  - **Accedere** ai tuoi dati personali
+  - **Rettificare** dati inesatti
+  - **Cancellare** il tuo account e tutti i dati associati
+  - **Portare** i tuoi dati (esporto in formato JSON)
+  - **Limitare** il trattamento
+  - **Opporti** al trattamento
+  - **Revocare** il consenso
 
-## I tuoi diritti (GDPR)
+  Per esercitare i tuoi diritti scrivi a **buddy.coach.ai@gmail.com**
+  specificando la richiesta. Risponderemo entro 30 giorni.
 
-In qualunque momento puoi:
-- **Accedere** ai tuoi dati personali
-- **Rettificare** dati inesatti
-- **Cancellare** il tuo account e tutti i dati associati (anche direttamente dall'app, profilo → "Cancella account")
-- **Portare** i tuoi dati (esporto in formato JSON)
-- **Limitare** il trattamento
-- **Opporti** al trattamento
-- **Revocare** il consenso
+  Hai inoltre diritto di **proporre reclamo all'autorità di controllo**
+  competente (in Italia: Garante per la Protezione dei Dati Personali,
+  www.gpdp.it).
 
-Per esercitare i tuoi diritti scrivi a **buddy.coach.ai@gmail.com** specificando la richiesta. Risponderemo entro 30 giorni.
+  ## Minori
 
-Hai inoltre diritto di **proporre reclamo all'autorità di controllo** competente (in Italia: Garante per la Protezione dei Dati Personali, [www.gpdp.it](https://www.gpdp.it)).
+  Buddy Coach è progettata anche per minori. Per gli **utenti con ruolo
+  Studente** è richiesto il consenso del **Coach** (genitore o insegnante),
+  che si registra per primo e fornisce il proprio consenso GDPR durante la
+  registrazione. Il Coach è responsabile dell'utilizzo dell'app da parte del
+  minore di cui ha cura.
 
-## Minori
+  In conformità con l'art. 8 GDPR e la normativa italiana, **non raccogliamo
+  direttamente dati di minori di 14 anni senza il consenso di chi esercita la
+   responsabilità genitoriale**. Se sei un genitore o tutore e vuoi che
+  eliminiamo i dati di un minore registrato senza il tuo consenso,
+  contattaci.
 
-Buddy è progettata anche per minori. Per gli **utenti con ruolo Studente** è richiesto il consenso del **Coach** (genitore o insegnante), che si registra per primo e fornisce il proprio consenso GDPR durante la registrazione. Il Coach è responsabile dell'utilizzo dell'app da parte del minore di cui ha cura.
+  ## Modifiche alla privacy policy
 
-In conformità con l'art. 8 GDPR e la normativa italiana, **non raccogliamo direttamente dati di minori di 14 anni senza il consenso di chi esercita la responsabilità genitoriale**. Se sei un genitore o tutore e vuoi che eliminiamo i dati di un minore registrato senza il tuo consenso, contattaci.
+  Possiamo aggiornare questa policy. La data in alto indica l'ultimo
+  aggiornamento. Ti notificheremo via email o nell'app le modifiche
+  sostanziali.
 
-## Modifiche alla privacy policy
+  ## Contatti
 
-Possiamo aggiornare questa policy. La data in alto indica l'ultimo aggiornamento. Ti notificheremo via email o nell'app le modifiche sostanziali.
-
-## Contatti
-
-**Titolare del trattamento**: Alessandro Di Anna
-**Email**: buddy.coach.ai@gmail.com
+  **Titolare del trattamento**: Alessandro Di Anna
+  **Email**: buddy.coach.ai@gmail.com
